@@ -1,0 +1,25 @@
+{
+  "name": "serverless",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nana1243/serverless.git",
+  "author": "HeuiEun Choi <52269210+nana1243@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev" : "serverless offline",
+    "deploy" : "sls deploy"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.37",
+    "@types/chai": "^4.2.6",
+    "@types/mocha": "^5.2.7",
+    "@types/request": "^2.48.3",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "serverless-offline": "^5.12.1",
+    "serverless-plugin-typescript": "^1.1.9",
+    "tslint": "^5.20.1",
+    "tslint-config-airbnb": "^5.11.2",
+    "typescript": "^3.7.3"
+  }
+}
